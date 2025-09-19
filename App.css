@@ -1,0 +1,195 @@
+html
+{
+  margin: 0;
+  padding: 0;
+  background-position: left;
+}
+*
+{
+    scroll-behavior: smooth;
+    margin:0;
+    padding: 0;
+}
+.navbar
+{
+    background: transparent;
+    transition: background-color 0.4s ease;
+}
+.navbar .scrolled
+{
+    background-color: black;
+    color: white;
+}
+nav,ul,li,a
+{
+  color: black;
+}
+/* .card:hover
+{
+ transform:translateY(-20px);
+ transition: 0.6s ease-in;
+} */
+@keyframes fadeIn{
+    from{
+       opacity: 0;
+       
+    }
+    to{
+        opacity: 1;
+        transition: 0.2s;
+       
+      
+    }
+}
+body
+{
+    animation:  fadeIn 1.5s ease-out;
+    min-height: 40px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    scroll-margin-left: none;
+    
+    
+}
+#round
+{
+position:absolute;
+
+}
+
+.header
+{
+/* background-image: linear-gradient(hsla(0, 0%, 0%, 0.933),#000000d1,rgba(0, 0, 0, 0.1)),url('./food-4k.jpg'); */
+background-size: cover;
+}
+
+.App 
+{
+height: 100px;
+
+}
+.link
+{
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  border-right: 1px solid white;
+}
+a 
+{
+  color: white;
+  font-size:20px;
+  margin: 20px;
+  
+}
+
+div .section
+{
+  margin-top:110px;
+}
+nav a{
+  font-size:larger;
+ 
+}
+nav a:hover
+{
+  background-color: red;
+  color:white;
+  transition:0.6s ease-in;
+}
+nav
+{
+   padding:10px;
+   height: 70px;
+}
+.card
+{
+  border-radius:9px;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+#container
+{
+  cursor: grab;
+}
+footer a
+{
+  color: black;
+}
+.scroll-hide {
+  overflow-x: auto;      /* still scrolls */ /* Firefox */
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+.highlight-text {
+  background-color: #ffd700; /* A shade of yellow */
+  padding: 0 0.5rem;
+
+}
+
+.image-container {
+  /* This is a simple approximation. The original image has a more complex shape. */
+  border: 4px solid #b87a41; /* A reddish-brown border color */
+  border-radius: 50%; /* Or adjust to get an oval shape */
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.menu-section h1 {
+  line-height: 1.2; /* Adjust line spacing */
+}
+.impact-section {
+  background-color: #f7f3ec; /* This color is a close approximation to the background in the image. */
+  padding: 5rem 2rem; /* Adds padding for spacing. */
+}
+
+.impact-text-dark {
+  color: #3b2b2b; /* A dark brown color similar to the text in the image. */
+  line-height: 0.9; /* Reduces line spacing. */
+}
+h1
+{
+  font-weight: bold;
+}
+.impact-text-orange {
+  color: #4d2deb; /* An orange color similar to the "IMPACT" text. */
+  line-height: 0.9;
+}
+.custom-card-img {
+      background-color: #f0f0f0;
+      min-height: 200px;
+    }
+    .badge-press-release {
+      background-color: #d8ff00 !important;
+      color: #000;
+      font-weight: bold;
+    }
+    .card-body .card-title {
+      font-weight: bold;
+    }
+    .card-body .card-text {
+      font-size: 0.9rem;
+    }
+    video
+    {
+      width: 100%;
+    }
+    button:hover
+    {
+      background-color: #6A0DAD;
+      color: #f7f3ec;
+    }
+    #poster
+    {
+      background: linear-gradient(#6A0DAD,#6a0dad89,rosybrown);
+    }
